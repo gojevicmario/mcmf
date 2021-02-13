@@ -5,7 +5,7 @@ import { ChkService } from '../../service/chk.service';
 @Component({
   selector: 'angly-blogListingSideBar',
   templateUrl: './blogListingSideBar.component.html',
-  styleUrls: ['./blogListingSideBar.component.scss']
+  styleUrls: ['./blogListingSideBar.component.scss'],
 })
 export class BlogListingSideBarComponent implements OnInit {
 
@@ -18,33 +18,10 @@ export class BlogListingSideBarComponent implements OnInit {
 	constructor(private service:ChkService, private pageTitleService: PageTitleService,) {
 
 		/* Page title */
-		this.pageTitleService.setTitle(" Latest Blog ");
+		this.pageTitleService.setTitle(" News ");
 
 		/* Page subTitle */
-		this.pageTitleService.setSubTitle(" Build something incredible! ");
-
-		this.service.getBlogListingSideBar().
-			subscribe(response => {this.blogSidebar = response},
-		          err       => console.log(err),
-		          ()        => this.blogSidebar
-		       );
-
-		this.service.getcategories().
-		 	subscribe(response => {this.categories = response},
-		           err      => console.log(err),
-		           ()       => this.categories
-		       );
-		this.service.getPopularPosts().
-		 	subscribe(response => {this.popularPosts = response},
-		             err    => console.log(err),
-		             ()     => this.popularPosts
-		          );
-
-		this.service.getInstagramImages().
-		 	subscribe(response => {this.instagramGallary = response},
-		           err      => console.log(err),
-		           ()       => this.instagramGallary
-		       );
+		this.pageTitleService.setSubTitle(" Latests news from MCMF ");
 
    }
 

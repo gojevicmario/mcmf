@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import { HttpClientModule, HttpClient} from '@angular/common/http';
-import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { DirectivesModule } from './core/directive/directives.module';
 import { AgmCoreModule } from '@agm/core';
@@ -14,7 +14,7 @@ import { ChkService } from './service/chk.service';
 
 /* components */
 import { AppComponent } from './app.component';
-import { MainComponent }   from './main/main.component';
+import { MainComponent } from './main/main.component';
 import { HomeComponent } from './home/home.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
@@ -34,7 +34,7 @@ import { Footer2Component } from './footer2/footer2.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
 
 @NgModule({
-   declarations: [
+   declarations: [	
       AppComponent,
       MainComponent,
       HomeComponent,
@@ -68,8 +68,8 @@ import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.compone
    providers: [
       MenuItems,
       PageTitleService,
-      ChkService
-   ],
+      ChkService,
+      { provide: Window, useValue: window }],
    bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,10 +1,11 @@
 /*========== Home Css ==========*/
 .site-banner {
-  background: url(../../../assets/img/mcmf/stock/greece-bg.jpg);
+  background: url(../../../assets/img/mcmf/other/mockup-mcmf.jpg);
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: cover;
-  height: 40vh;
+  height: 100vh;
+  cursor: pointer;
 }
 .banner-wrapper {
   align-items: center;
@@ -33,7 +34,6 @@
 }
 .banner-content h2 {
   position: relative;
-  width: 70%;
 }
 .section-title-wrapper {
   margin-bottom:3.75rem;

@@ -18,10 +18,7 @@ export class AboutComponent implements OnInit {
    constructor(private pageTitleService: PageTitleService, private service:ChkService) {
 
       /* Page title */
-      this.pageTitleService.setTitle(" Know More About Us");
-
-      /* Page subTitle */
-      this.pageTitleService.setSubTitle(" Our latest news and learning articles. ");
+      this.pageTitleService.setTitle(" Know More About The Project");
 
       this.service.getServices().
          subscribe(response => {this.services = response},

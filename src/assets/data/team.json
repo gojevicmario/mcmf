@@ -1,52 +1,53 @@
 {
-  "data":[
+  "data": [
     {
-      "image_path":"./assets/img/1-team.jpg",
-      "name":"Jeremy Chavez",
-      "type":"Web Designer",
-      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "image_path": "./assets/img/mcmf/logos/aid.png",
+      "name": "A.I.D.",
+      "website": "http://aid.com.gr/",
+      "facebook": "https://www.facebook.com/aid.com.gr",
+      "instagram": "",
+      "content": "Alternative Innovative Development (A.I.D.) is an organization of non-profit nature, focusing on YOUTH actions and initiatives that promote intercultural dialogue, human rights, phenomena of marginalization and racism (xenophobia, Islamophobia, etc.), supplying educative supporting services and cultural heritage."
     },
     {
-      "image_path":"./assets/img/2-team.jpg",
-      "name":"James",
-      "type":"Developer",
-      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "image_path": "./assets/img/mcmf/logos/dyn.png",
+      "name": "Diverse Youth Network",
+      "website": "https://diverseyouthnetwork.eu/",
+      "facebook": "",
+      "instagram": "",
+      "content": "Diverse Youth Network builds a network of diverse people and NGOs inside and outside of Europe. The mission of the Diverse Youth Network is to build connections between people and communities, to articulate diversity and versatility, and to inspire joint co-operations and initiatives among youth."
     },
     {
-      "image_path":"./assets/img/3-team.jpg",
-      "name":"Eula Saunders",
-      "type":"Web Designer",
-      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "image_path": "./assets/img/mcmf/logos/kocaturk.png",
+      "name": "Kocaturk",
+      "website": "https://www.key-action.com/",
+      "facebook": "https://www.facebook.com/groups/190949818051733/",
+      "instagram": "https://www.instagram.com/ab_proje_atolyesi/",
+      "twitter": "https://twitter.com/KOCATRKDANIMAN1",
+      "content": "Kocaturk was launched in 2018 offering consultancy with good quality to all the public and private institutions which care about change and development. Offering employability opportunities to young people the aim of the organization is to raise the standards of general education of our country."
     },
     {
-      "image_path":"./assets/img/1-team.jpg",
-      "name":"Max",
-      "type":"Developer",
-      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "image_path": "./assets/img/mcmf/logos/meraki.png",
+      "name": "Meraki",
+      "website": "",
+      "facebook": "www.facebook.com/ngo.meraki/",
+      "instagram": "www.instagram.com/ngo.meraki",
+      "content": "NGO Meraki covers different fields and profiles with a main aim to forest the mobility of young people in Europe and providing non-formal and informal learning opportunities with a European dimension and creating innovative opportunities in connection with active citizenship, especially for the young people with fewer opportunities"
     },
     {
-      "image_path":"./assets/img/2-team.jpg",
-      "name":"Max",
-      "type":"Developer",
-      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "image_path": "./assets/img/mcmf/logos/regain.png",
+      "name": "Regain",
+      "website": "http://ww1.association-regain.com/",
+      "facebook": "",
+      "instagram": "",
+      "content": "Regain, at La Borie Noble is a place of exchange and creation open to all, artists, independent researchers, art lovers or simply curious people about a more sustainable life. Regain emphasizes a hands-on, learning-by-doing approach, focuses on more practical education and provides access to youngsters to experience self-sufficiency."
     },
     {
-      "image_path":"./assets/img/3-team.jpg",
-      "name":"Max",
-      "type":"Developer",
-      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-      "image_path":"./assets/img/1-team.jpg",
-      "name":"Max",
-      "type":"Developer",
-      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-      "image_path":"./assets/img/2-team.jpg",
-      "name":"Max",
-      "type":"Developer",
-      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "image_path": "./assets/img/mcmf/logos/tierra.png",
+      "name": "Teatro Sol y Tierra",
+      "website": "https://victortorrevaquero.blogspot.com/",
+      "facebook": "",
+      "instagram": "",
+      "content": "Teatro Sol y Tierra is an Association that aims to create a learning space for sustainability in four directions: ecological, economic, social and cultural. Through the realization of training courses and artistic activities aimed at disseminating a sustainable lifestyle, based on the philosophy of Ecovillages model. "
     }
   ]
 }

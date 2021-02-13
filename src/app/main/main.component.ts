@@ -61,8 +61,8 @@ export class MainComponent implements OnInit{
 		window.scroll(0,0);
    }
 
-   addToggleClass() {
-   	$('body').toggleClass('rtl-enable');
+   redirectToBrochures() {
+	this.router.navigate(['/leaflet-post']);
    }
 
 }

@@ -8,6 +8,9 @@ import { BlogSidebarComponent } from './blogSidebar/blogSidebar.component';
 import { BlogNoSidebarComponent } from './blogNoSidebar/blogNoSidebar.component';
 import { BlogListingSideBarComponent } from './blogListingSideBar/blogListingSideBar.component';
 import { BlogDetailComponent } from './blogDetail/blogDetail.component';
+import { LeafletPostComponent} from './posts/leaflet-post/leaflet-post.component'
+import { FirstTransnationalMeetingPostComponent} from './posts/first-transnational-meeting-post/first-transnational-meeting-post.component'
+
 
 export const BlogsRoutes: Routes = [{
   path: '',
@@ -39,5 +42,13 @@ export const BlogsRoutes: Routes = [{
   },{
     path: 'blog-detail',
     component: BlogDetailComponent
+  },
+  {
+    path: 'first-transnational-meeting-post',
+    component: FirstTransnationalMeetingPostComponent
+  },
+  {
+    path: 'leaflet-post',
+    component: LeafletPostComponent
   }]
 }];

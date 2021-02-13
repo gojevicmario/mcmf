@@ -1,0 +1,17 @@
+.blog-wrapper {
+    .blog-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+            text-align: center;
+        }
+    }
+    .blog-post .image-container{
+        display: flex;
+        img {
+            width: auto;
+            max-height: 280px;
+        }
+    }  
+}

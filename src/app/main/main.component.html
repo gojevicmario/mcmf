@@ -1,26 +1,16 @@
-<div class="rtl-layout" (click)="addToggleClass()"><a href="javascript:void(0);">RTL</a></div>
 <div #scrollContainer class="over-scroll" (scroll)="onScroll($event)" [ngClass]="{'fixed-header' : fixedHeaderClass}">
 <header angly-header></header>
 
 <!-- If home page so show this content -->
-<div *ngIf="router?.url == '/home'" class="site-banner">
+<div *ngIf="router?.url == '/home'" class="site-banner" (click)="redirectToBrochures()">
     <div class="banner-wrapper primary-layer">
         <div class="banner-inner">
             <div class="banner-content container text-center container-full-width">
-                <h2 class="display-3 fw-200 mb-4 text-white text-capitalize">
+                <h2 class="display-4 fw-200 mb-4 text-white text-capitalize">
                     <div class="d-title">
-                        Creative 
-                        <span>Designs</span>
-                        <span>Business</span>
+                        My Cultural Heritage <br> & My Future
                     </div>
                 </h2>
-                <h4 class="text-white">Build something incredible!</h4>
-                <a class="btn btn-lg btn-outline-light mr-3 mb-3 px-4 py-2 btn-chk inverse" target="_blank" href="javascript:void(0);">
-                     Purchase
-                </a>
-                <a class="btn btn-lg btn-outline-light mb-3 px-4 py-2 btn-chk" href="javascript:void(0);">
-                     Know More
-                </a>
             </div>
         </div>
     </div>
