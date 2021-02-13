@@ -18,6 +18,7 @@ import { MainComponent } from './main/main.component';
 import { HomeComponent } from './home/home.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
+import { GdprComponent } from './GDPR/GDPR.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
@@ -49,6 +50,7 @@ import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.compone
       SupportComponent,
       Footer2Component,
       sidebarWidgetsComponent,
+      GdprComponent
    ],
    imports: [
       BrowserModule,

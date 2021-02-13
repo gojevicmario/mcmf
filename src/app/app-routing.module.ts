@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { SearchComponent } from './search/search.component';
 import { SupportComponent } from './support/support.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
+import { GdprComponent } from './GDPR/GDPR.component';
 
 export const AppRoutes: Routes = [{
    path: '',
@@ -32,6 +33,10 @@ export const AppRoutes: Routes = [{
          },{
             path: 'contact',
             component: ContactComponent
+         },
+         {
+            path: 'GDPR',
+            component: GdprComponent
          },{
             path:'features',
             component:FeaturesComponent
