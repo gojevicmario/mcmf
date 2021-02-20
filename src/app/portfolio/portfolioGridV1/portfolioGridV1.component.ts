@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PageTitleService } from '../../core/page-title/page-title.service';
 import { ChkService } from '../../service/chk.service';
 
+
 @Component({
   selector: 'angly-portfolioGridV1',
   templateUrl: './portfolioGridV1.component.html',
@@ -11,6 +12,7 @@ export class PortfolioGridV1Component implements OnInit {
 
    /* Variables */
   portfolioV1 : any;
+
 
   constructor(private service:ChkService, private pageTitleService:PageTitleService) {
 
@@ -25,9 +27,13 @@ export class PortfolioGridV1Component implements OnInit {
                   err      => console.log(err),
                   ()       => this.portfolioV1
                );
+
+            
   }
 
   ngOnInit() {
   }
+
+
 
 }

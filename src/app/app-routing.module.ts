@@ -13,6 +13,7 @@ import { SupportComponent } from './support/support.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
 import { GdprComponent } from './GDPR/GDPR.component';
 import { SixtySecCultureComponent } from './sixty-sec-culture/sixty-sec-culture.component';
+import { GalleryCustomComponent } from './gallery-custom/gallery-custom.component';
 
 export const AppRoutes: Routes = [{
    path: '',
@@ -42,6 +43,10 @@ export const AppRoutes: Routes = [{
          {
             path: 'sixtySec',
             component: SixtySecCultureComponent
+         },
+         {
+            path: 'gallery',
+            component: GalleryCustomComponent
          },
          {
             path:'features',

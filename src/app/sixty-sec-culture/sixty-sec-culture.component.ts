@@ -8,7 +8,7 @@ import { PageTitleService } from 'app/core/page-title/page-title.service';
 })
 export class SixtySecCultureComponent implements OnInit {
 
-  constructor(private pageTitleService: PageTitleService) {       this.pageTitleService.setTitle("60 seconds[] culture");
+  constructor(private pageTitleService: PageTitleService) {       this.pageTitleService.setTitle("60 seconds culture");
 }
 
   ngOnInit(): void {

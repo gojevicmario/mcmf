@@ -31,7 +31,7 @@ const HEADERMENUITEMS = [
       name:"About",
       type:"link",
    },
-   { state: 'portfolio-v1', name: 'Gallery', type:"link"},
+   { state: 'gallery', name: 'Gallery', type:"link"},
    {
       name:"News",
       state: "blog-listing-sidebar",
