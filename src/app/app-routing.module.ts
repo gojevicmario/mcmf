@@ -12,6 +12,7 @@ import { SearchComponent } from './search/search.component';
 import { SupportComponent } from './support/support.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
 import { GdprComponent } from './GDPR/GDPR.component';
+import { SixtySecCultureComponent } from './sixty-sec-culture/sixty-sec-culture.component';
 
 export const AppRoutes: Routes = [{
    path: '',
@@ -37,7 +38,12 @@ export const AppRoutes: Routes = [{
          {
             path: 'GDPR',
             component: GdprComponent
-         },{
+         },
+         {
+            path: 'sixtySec',
+            component: SixtySecCultureComponent
+         },
+         {
             path:'features',
             component:FeaturesComponent
          },{

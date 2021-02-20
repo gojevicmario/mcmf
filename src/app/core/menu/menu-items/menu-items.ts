@@ -31,9 +31,20 @@ const HEADERMENUITEMS = [
       name:"About",
       type:"link",
    },
+   { state: 'portfolio-v1', name: 'Gallery', type:"link"},
+   {
+      name:"News",
+      state: "blog-listing-sidebar",
+      type:"link"
+   },
    {
       state:"GDPR",
       name:"GDPR",
+      type:"link",
+   },
+   {
+      state:"sixtySec",
+      name:"60 second Culture",
       type:"link",
    },
    // {
@@ -41,12 +52,7 @@ const HEADERMENUITEMS = [
    //    name:"Partners",
    //    type:"link",
    // }
-   { state: 'portfolio-v1', name: 'Gallery', type:"link"},
-   {
-      name:"News",
-      state: "blog-listing-sidebar",
-      type:"link"
-   }
+   
    ];
 
 const FOOTERMENU = [

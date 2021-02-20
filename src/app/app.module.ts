@@ -8,7 +8,7 @@ import { DirectivesModule } from './core/directive/directives.module';
 import { AgmCoreModule } from '@agm/core';
 /* Routing */
 import { AppRoutingModule } from './app-routing.module';
-
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 /* Service */
 import { ChkService } from './service/chk.service';
 
@@ -33,6 +33,7 @@ import { SearchComponent } from './search/search.component';
 import { SupportComponent } from './support/support.component';
 import { Footer2Component } from './footer2/footer2.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
+import { SixtySecCultureComponent } from './sixty-sec-culture/sixty-sec-culture.component';
 
 @NgModule({
    declarations: [	
@@ -50,7 +51,8 @@ import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.compone
       SupportComponent,
       Footer2Component,
       sidebarWidgetsComponent,
-      GdprComponent
+      GdprComponent,
+      SixtySecCultureComponent
    ],
    imports: [
       BrowserModule,
@@ -71,7 +73,9 @@ import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.compone
       MenuItems,
       PageTitleService,
       ChkService,
-      { provide: Window, useValue: window }],
+      { provide: Window, useValue: window },
+      {provide: LocationStrategy, useClass: HashLocationStrategy}
+   ],
    bootstrap: [AppComponent]
 })
 export class AppModule { }
