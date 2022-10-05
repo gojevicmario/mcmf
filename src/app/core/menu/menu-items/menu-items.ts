@@ -28,7 +28,7 @@ const HEADERMENUITEMS = [
    },
    {
       state:"about",
-      name:"About",
+      name:"Activites",
       type:"link",
    },
    { state: 'gallery', name: 'Gallery', type:"link"},
@@ -36,6 +36,11 @@ const HEADERMENUITEMS = [
       name:"News",
       state: "blog-listing-sidebar",
       type:"link"
+   },
+   {
+      state:"Outputs",
+      name:"Outputs",
+      type:"link",
    },
    {
       state:"GDPR",

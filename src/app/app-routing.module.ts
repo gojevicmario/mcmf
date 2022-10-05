@@ -12,6 +12,8 @@ import { SearchComponent } from './search/search.component';
 import { SupportComponent } from './support/support.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
 import { GdprComponent } from './GDPR/GDPR.component';
+import { OutputsComponent } from './Outputs/Outputs.component';
+
 import { SixtySecCultureComponent } from './sixty-sec-culture/sixty-sec-culture.component';
 import { GalleryCustomComponent } from './gallery-custom/gallery-custom.component';
 
@@ -39,6 +41,10 @@ export const AppRoutes: Routes = [{
          {
             path: 'GDPR',
             component: GdprComponent
+         },
+         {
+            path: 'Outputs',
+            component: OutputsComponent
          },
          {
             path: 'sixtySec',

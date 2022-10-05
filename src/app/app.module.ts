@@ -38,6 +38,7 @@ import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.compone
 import { SixtySecCultureComponent } from './sixty-sec-culture/sixty-sec-culture.component';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { GalleryCustomComponent } from './gallery-custom/gallery-custom.component';
+import { OutputsComponent } from './Outputs/Outputs.component';
 
 @NgModule({
    declarations: [	
@@ -51,6 +52,7 @@ import { GalleryCustomComponent } from './gallery-custom/gallery-custom.componen
       MenuComponent,
       FeaturesComponent,
       AboutComponent,
+      OutputsComponent,
       SearchComponent,
       SupportComponent,
       Footer2Component,
